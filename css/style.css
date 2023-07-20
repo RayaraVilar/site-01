@@ -269,7 +269,7 @@ footer{
 #main4{
     background-color: #3e4b3e;
     color: white;
-    height: 700px;
+    min-height: 700px;
     display: flex;
 }
 
@@ -302,7 +302,6 @@ footer{
     justify-content: center;
     flex-direction: column;
     width: 100vw;
-    min-height: 600px;
 }
 
 .botoesmain4{
@@ -338,14 +337,16 @@ footer{
 }
 
 #resultado{
-    margin: 4%;
+    margin-top: 4%;
+    margin-bottom: 2%;
     display: flex;
     justify-content: center;
 }
 
-p #inforesultado{
+
+p#inforesultado{
     display: flex;
-    flex-wrap: wrap;
+    padding-bottom: 150px;
 }
 
 .contentfooter{
