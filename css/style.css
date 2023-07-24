@@ -347,6 +347,21 @@ footer{
 p#inforesultado{
     display: flex;
     padding-bottom: 150px;
+    justify-content: center12lkgh;
+}
+
+[data-imagem] {
+    opacity: 0;
+    transition: .5s;
+}
+
+[data-imagem="right"] {
+    transform: translate3d(80px, 0, 0);
+}
+
+[data-imagem].animate {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
 }
 
 .contentfooter{
