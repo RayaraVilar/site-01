@@ -726,3 +726,8 @@ p#inforesultado{
         margin-bottom: 5%;
     }
 }
+
+@media screen and (max-width: 1200px) {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
