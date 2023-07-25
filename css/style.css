@@ -350,16 +350,56 @@ p#inforesultado{
     justify-content: center12lkgh;
 }
 
-[data-imagem] {
+.habitos-saudaveis, .tipos-habitos-saudaveis{
+    display: flex;
+    max-width: 1300px;
+}
+
+.tamanho-imagem{
+    width: 300px;
+    margin-left: 15%;
+}
+
+.tipos-habitos-saudaveis-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0;
+
+}
+
+.tipo-texto-habitos-saudaveis{
+    margin-right: 20%;
+    font-family: Montserrat, sans-serif;
+}
+
+.titulo-habitos{
+    font-family: "Outfit";
+    font-size: 40px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.texto-habitos-saudaveis{
+    width: 40%;
+}
+
+.content-hs{
+    margin: 10% 0;
+}
+
+[data-anime] {
     opacity: 0;
     transition: .5s;
 }
 
-[data-imagem="right"] {
+[data-anime="right"] {
     transform: translate3d(80px, 0, 0);
 }
 
-[data-imagem].animate {
+[data-anime].animate {
     opacity: 1;
     transform: translate3d(0px, 0px, 0px);
 }
