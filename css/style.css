@@ -134,7 +134,7 @@ main{
 }
 
 #main2 {
-    background-image: url("/images/backgroundmain2.jpg");
+    background-image: url("images/backgroundmain2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
