@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
 *{
     box-sizing: border-box;
-    @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+}
+
+body{
+    box-sizing: border-box;
 }
 
 header{
@@ -347,11 +352,18 @@ footer{
     justify-content: center;
 }
 
+.inforesultadodiv{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
 
 p#inforesultado{
     display: flex;
     padding-bottom: 150px;
-    justify-content: center12lkgh;
+    justify-content: center;
+    text-align: justify;
 }
 
 .habitos-saudaveis, .tipos-habitos-saudaveis{
@@ -727,7 +739,3 @@ p#inforesultado{
     }
 }
 
-@media screen and (max-width: 1200px) {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-}
