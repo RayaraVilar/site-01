@@ -46,7 +46,7 @@ main{
     color: black;
     text-transform: uppercase;
     font-family: "Outfit";
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .links:hover{
@@ -64,7 +64,7 @@ main{
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 1rem;
   }
   
 .search-button {
@@ -72,7 +72,7 @@ main{
     border-radius: 5px;
     background-color: green;
     color: white;
-    font-size: 16px;
+    font-size: 1rem;
     cursor: pointer;
     border: none;
   }  
@@ -97,21 +97,21 @@ main{
 .titulo{
     font-family: "Outfit";
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 3.125rem;
     padding-bottom: 5px;
 }
 
 .titulodois{
     font-family: "Outfit";
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 1.125rem;
     padding-bottom: 30px;
     color: green;
 }
 
 .textop{
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 0.875rem;
     text-align: justify;
 }
 
@@ -204,7 +204,7 @@ footer{
     justify-content: center;
     text-transform: uppercase;
     font-family: "Outfit";
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 600;
     color: rgb(0, 0, 0);
 }
@@ -239,7 +239,7 @@ footer{
 
 .titulodasreceitas{
     font-family: 'Outfit';
-    font-size: 16px;
+    font-size: 1rem;
     color: #28862b;
     text-align: center;
 }
@@ -340,7 +340,7 @@ footer{
     justify-content: center;
     text-transform: uppercase;
     font-family: "Outfit";
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 600;
     color: white;
 }
@@ -435,7 +435,7 @@ p#inforesultado{
 }
 
 .titulocontato{
-    font-size: 30px;
+    font-size: 1.875rem;
     text-transform: uppercase;
     padding-bottom: 50px;
 }
@@ -463,7 +463,7 @@ p#inforesultado{
 }
 
 .fab{
-    font-size: 40px;
+    font-size: 2.5rem;
     color: green;
     padding-bottom: 30px;
 }
@@ -517,7 +517,7 @@ p#inforesultado{
     .search-button{
         max-height: 15px;
         max-width: 40%;
-        font-size: 10px;
+        font-size: 0.625rem;
 
     }
 
@@ -604,7 +604,7 @@ p#inforesultado{
     }
 
     #contato{
-        font-size: 30px;
+        font-size: 1.875rem;
         margin-bottom: 5%;
     }
 }
@@ -645,7 +645,7 @@ p#inforesultado{
     .search-button{
         max-height: 20px;
         max-width: 40%;
-        font-size: 10px;
+        font-size: 0.625rem;
 
     }
 
@@ -661,7 +661,7 @@ p#inforesultado{
     }
 
     .titulo{
-        font-size: 40px;
+        font-size: 2.5rem;
         padding-bottom: 0;
         margin-bottom: 0;
     }
@@ -734,7 +734,7 @@ p#inforesultado{
     }
 
     #contato{
-        font-size: 30px;
+        font-size: 1.875rem;
         margin-bottom: 5%;
     }
 }
